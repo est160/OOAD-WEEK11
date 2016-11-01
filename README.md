@@ -178,11 +178,103 @@ NDoff -Left-> 7e :Management
                               
 #code
 
+@startuml
+
+title Chart Show TV
+
+[*] --> Programs
+
+state Programs 
+
+state Programs {
+
+  state "Open TV" as Open
+  
+  state "Select channels" as Selectchannels
+  
+  state "normal program" as normalprogram
+  
+  state "morning News" as morningNews
+  
+  state movie
+  
+  state cartoon
+  
+  state "affternoon News" as affternoonNews
+  
+  state Documentary
+  
+  state "game show" as gameshow
+  
+  state series1
+  
+  state "evening news" as eveningnews
+  
+  state series2
+  
+  state "Close TV" as Close
+  
+  Open --> Selectchannels
+  
+  Selectchannels --> Close
+  
+  Selectchannels --> normalprogram
+  
+  normalprogram --> normalprogram
+  
+  normalprogram --> Close
+  
+  normalprogram --> morningNews
+  
+  morningNews --> Close
+  
+  morningNews --> movie
+  
+  movie --> Close
+  
+  movie --> cartoon
+  
+  cartoon --> Close
+  
+  cartoon --> affternoonNews
+  
+  affternoonNews --> Close
+  
+  affternoonNews --> Documentary
+  
+  Documentary --> Close
+  
+  Documentary --> gameshow
+  
+  gameshow --> Close
+  
+  gameshow --> series1
+  
+  series1 -->Close
+  
+  series1 --> eveningnews
+  
+  eveningnews --> Close
+  
+  eveningnews --> series2
+  
+  series2 --> Close
+ 
+  Close --> Open
+  
+}
+
+@enduml
 
 
-                                   PIC 5
 
-![]()
+
+                                   PIC 5 Chart Show TV
+                                   
+                                   
+                                   
+
+![](http://www.plantuml.com/plantuml/img/ZPHDImCn48Rl-HL3Zq8F-WEaKCygLBo8Xx1ETnVoKPAqHSJ_RZutcMmFGg7pFlFEP3kJxSuwRjnP2iRSx0J2Vl8Q3fE-mjix-xZxXEts4LwD7WsNbdcxmqK2wy4F0qXeyt92vNjiW5i8SSqSKE3WO9YuKYXiT2HMKFKgRIGNS4e7H6j2cLIdr4RDQeHdlAQM6GIzkAI-pBYemVzMhPiduyUZGwCygsqg8vsUz72MgFpulclzo2M2zSEBbK45iUGjcXdjVVNZ1UCpgt9O1gezALKzrAgzq1RBQAFmEV-94m_hMWsJWkWfTJTI_O29_gUZj5zdw5eQHUfwNXONlpjd8NMTEIA-bgrsIW6fkv6YksyKAUnvSnrAIFm4DbSbHO4MPuEw6zCeqhldpPrAKUlsD5snmFAhotuPsw7wydyLVm00)
 
 
                              
