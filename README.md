@@ -9,13 +9,13 @@ Title Hard Working
 
 State sleep
 
-State wakeup
+State "wake up" as wakeup
 
-State gotowork
+State "go to work" as gotowork
 
-State finishwork
+State "finish work" as finishwork
 
-State gohome
+State "go home" as gohome
 
 
 
@@ -31,10 +31,9 @@ gohome -up-> sleep
 
 @enduml
 
-
                     
                                             PIC 1 Hrad Working
 
 
 
-![](http://www.plantuml.com/plantuml/img/ROyn3iCW34Ltdy8Nu0fLnkwjr1a95wmG784Hroyg8SrGB_x_stgobw8sQzqYm9Cr4jvjTlYIl7Bo20-rIbWYqNxePbUgqtXHQNtti6zENC8by19a8-ZrHQ39x8EQswICTiOdRWeqJbhg-nVoOFvGVqPrx_au6XPAhh_t0G00)
+![](http://www.plantuml.com/plantuml/img/RL0n3iCW4DjvnIaxNwWoTc-bpaXS0OLm20xb-oKXWLOg2pO-sy2SMIKkgnVYwTWZt5NIyAAqk610Y0ShHiWUCLvasjI2KE84AiEEov0C0HDirNweXfXsqlMt2oxRCT3upqYDiBJYwT-XgEku0SZaZ6LvwxLjx-UZxq8WDMsXEhwRMkn8-wULM8NptJC6NR_e0m00)
