@@ -473,3 +473,59 @@ stop
                                
 ![](http://www.plantuml.com/plantuml/img/VP4zJyD038Pt_mfdIpSajcIWB0KnLAXbOOeEukHETUpguXJoxxbha01HTJpVe-Vrnteq5sqQ6C22CU5zPnHn_-vL6G7Etm3LepiHEco32CKw5SmTSk7DcK_Fq67vp6uEqkE36-XkXUP9i9nfN04WLatphTXCqZH5KTIf2iGZOIcwC5ir_A4MGDhGfRWdxViahrDBeaR8r5c5jpSu19cCbWvsv5hSweduKlwEs7rUYpu3lrEpyoNFEUiKqUj07neFbzoR867qr-GBWQzaV-Rwhy_BtJFHiSxRroF0Ei7fGby0)
 
+
+
+
+#code
+
+@startuml
+
+title Go Home
+
+
+start
+
+:After school;
+
+:Wait for Last Train;
+
+if (You are Late?) then (yes)
+
+  fork
+  
+    :__Worry__!!!;
+    
+  fork again
+  
+    :Train to gone!!;
+    
+  fork again
+  
+    :Find taxi for go home!;
+    
+  end fork
+  
+else (no)
+
+  :don't worry;
+  
+  :relax;
+  
+endif
+
+:Go To home;
+
+stop
+
+@enduml
+
+
+
+
+
+                                   PIC 5 Go Home
+                                   
+                                   
+                                   
+                                   
+![](http://www.plantuml.com/plantuml/img/VL2xZi8m4EptAoRLXLz82aB3NN4b4gAAh6EJM6Uyo5u4-VlRc0Cw94lMxZmqErrMb_Ho2aJgDJ0-1LzoOY8g256p6PGJyiya4bgRzyuh1aduTbcnIyv7M_i1zK4kS8aDK5wle1D7r3Fd5H4MnQzzze2cx_UIqjptLLMrPVNFW1lDxyahxb31A97VKxS-7g7kvaksKJ3P6Iy56_g8m24pwYWbLtEK-A6uBddQkrkJEBXR6Kpc1plQQjdTBTkb6JaJTOPPSNy0)
