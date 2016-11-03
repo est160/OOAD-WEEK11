@@ -314,3 +314,101 @@ stop
                                       
                                       
 ![](http://www.plantuml.com/plantuml/img/DOwn3i8m34HtVyMDxI_GWMviB20Xna0CYIYuYbtrzt536E-T_NIZMYYsl2SYopOnSBed4OzK6w8rPSVT6bwCPTxtG5PqH-c9WDqbP4Fhy922fy04MYK34NzY4rnPVo-sNGVSWgN1yuPYOLMExlYJW-0iRKjbQZ8JZUxpiLy0)  
+
+
+
+
+#code
+
+@startuml
+
+Title Cubed machine doll.
+
+(*) --> "Insert coin"
+
+    --> "Wait for coin fully"
+
+if "Control Machine" then
+
+  -->[true] "Machine Active"
+  
+  --> "Clamp Doll"
+  
+  --> "End Process"
+  
+  -right-> (*)
+  
+else
+
+  ->[false] "Night Coins"
+  
+  -->"End process" 
+  
+  --> (*)
+  
+endif
+
+@enduml  
+
+
+
+                                     PIC 2 Cubed machine doll
+                                     
+                                     
+                                     
+                                     
+![](http://www.plantuml.com/plantuml/img/JP11QyCm38Nl-XKFdxP2znDAHxR33Yqx37OeExY9t1WKEzZAOFz-IfRG-IBpdlJfeMDLNtGQXEWZgZ2QwSeT1j_sCJ6wBF94zB1xn7v_W7jBbOkYpJ4v8jXRv4yV5I6NnK2OH7xCZW6koKbB5fp-W0xQSvedRUwYPU8lkDN3SwlncvsPj78RySE85mlnNtrD7TvBRhdMJIxnrgjv5dHMM2elImwNuErlIyvp1nhBL--i1JMkg8s_CL8N0z7Hgftd5m00)
+
+
+
+
+
+#code
+
+@startuml
+
+title Triffic LED 
+
+
+skinparam backgroundColor #BBBBBB
+
+skinparam activity {
+
+  StartColor Blue
+  
+  EndColor Green
+  
+  BackgroundColor orange
+  
+  BorderColor Yellow
+  
+}
+
+start
+
+:RED LED ACTIVE;
+
+:YELLOW LED ACTIVE;
+
+:GREEN LED ACTIVE;
+
+stop
+
+@enduml
+
+
+
+
+                                PIC 3 Triffic LED
+                                
+                                
+                                
+                                
+![](http://www.plantuml.com/plantuml/img/NO_12i8m44Jl-nKB_eLUQceeGh5GYz9ZRDCIcYPbcoeY_hk9LT0kUthCpiv4enFafbu3EEMqn89KqwWAKxv301WxPGP1eiUBgBgMx6Jgs6fBk6Bl-PM8ogchSdTy020UW_EiPNgIdlZbt_E4f3GpOmjdIyAq7pspL4kQUIcrjhV0d_vhS0TOvpvdoBgDY_s9RpmfUPfcvmLCSiuF_snqTW28fAbz_HS0)
+
+
+
+
+
+#code
+
