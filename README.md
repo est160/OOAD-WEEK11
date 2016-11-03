@@ -412,3 +412,64 @@ stop
 
 #code
 
+@startuml
+
+title After School 
+
+start
+
+:Have a dinner;
+
+:take a bath;
+
+if (Playing Game?) then (yes)
+
+  :__Have a Fun__!!!;
+  
+else (no)
+
+  :Not Have a Fun;
+  
+endif
+
+:Jogging; 
+
+note left: 30 minute
+
+if (Read Novel?) then (yes)
+
+  :__Relax__!!!;
+  
+else (no)
+
+  :Not Relax;
+  
+endif
+
+if (Take your homework?) then (yes)
+
+  :__Finish__!!!;
+  
+else (no)
+
+  :Not Finish Yet;
+  
+endif
+
+:Take your homework;
+
+:Sleep;
+
+stop
+
+@enduml
+
+
+
+
+                               PIC 4 After School
+                               
+                               
+                               
+![](http://www.plantuml.com/plantuml/img/VP4zJyD038Pt_mfdIpSajcIWB0KnLAXbOOeEukHETUpguXJoxxbha01HTJpVe-Vrnteq5sqQ6C22CU5zPnHn_-vL6G7Etm3LepiHEco32CKw5SmTSk7DcK_Fq67vp6uEqkE36-XkXUP9i9nfN04WLatphTXCqZH5KTIf2iGZOIcwC5ir_A4MGDhGfRWdxViahrDBeaR8r5c5jpSu19cCbWvsv5hSweduKlwEs7rUYpu3lrEpyoNFEUiKqUj07neFbzoR867qr-GBWQzaV-Rwhy_BtJFHiSxRroF0Ei7fGby0)
+
