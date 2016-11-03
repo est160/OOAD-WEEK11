@@ -278,3 +278,39 @@ state Programs {
 
 
                              
+
+#Activity Diagram
+
+#code
+
+@startuml
+
+title  School
+
+
+start
+
+while (wake up?)  is (No)
+
+  :Wait wake up for go to school;
+
+endwhile (Yes)
+
+  :take a bath;
+  
+  :dressed up;
+  
+  :Go To School;
+  
+stop
+
+@enduml
+
+
+
+
+                                      PIC 1 School
+                                      
+                                      
+                                      
+![](http://www.plantuml.com/plantuml/img/DOwn3i8m34HtVyMDxI_GWMviB20Xna0CYIYuYbtrzt536E-T_NIZMYYsl2SYopOnSBed4OzK6w8rPSVT6bwCPTxtG5PqH-c9WDqbP4Fhy922fy04MYK34NzY4rnPVo-sNGVSWgN1yuPYOLMExlYJW-0iRKjbQZ8JZUxpiLy0)  
